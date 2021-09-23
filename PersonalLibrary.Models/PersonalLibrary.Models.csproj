@@ -62,6 +62,8 @@
     <Compile Include="BookModels\BookDetail.cs" />
     <Compile Include="BookModels\BookEdit.cs" />
     <Compile Include="BookModels\BookListDetail.cs" />
+    <Compile Include="BookRecordModels\BookRecordCreate.cs" />
+    <Compile Include="BookRecordModels\BookRecordListDetail.cs" />
     <Compile Include="GenreModels\GenreCreate.cs" />
     <Compile Include="GenreModels\GenreDetail.cs" />
     <Compile Include="GenreModels\GenreEdit.cs" />
