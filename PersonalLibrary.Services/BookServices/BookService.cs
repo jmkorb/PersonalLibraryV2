@@ -10,12 +10,12 @@ namespace PersonalLibrary.Services.BookServices
 {
     public class BookService
     {
-        //private readonly int _userId;
+       // private readonly Guid _userId;
 
-        //public BookService(int userId)
-        //{
-        //    _userId = userId;
-        //}
+        //public BookService(Guid userId)
+       // {
+       //     _userId = userId;
+       // }
 
         public bool CreateBook(BookCreate book)
         {
@@ -113,5 +113,7 @@ namespace PersonalLibrary.Services.BookServices
                 return ctx.SaveChanges() == 1;
             }
         }
+       
+
     }
 }

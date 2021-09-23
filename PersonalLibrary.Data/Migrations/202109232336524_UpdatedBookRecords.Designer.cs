@@ -7,13 +7,13 @@ namespace PersonalLibrary.Data.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.0-30225")]
-    public sealed partial class fourthtry : IMigrationMetadata
+    public sealed partial class UpdatedBookRecords : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(fourthtry));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(UpdatedBookRecords));
         
         string IMigrationMetadata.Id
         {
-            get { return "202109230043397_fourthtry"; }
+            get { return "202109232336524_UpdatedBookRecords"; }
         }
         
         string IMigrationMetadata.Source

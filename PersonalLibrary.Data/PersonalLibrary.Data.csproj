@@ -86,15 +86,12 @@
   <ItemGroup>
     <Compile Include="Author.cs" />
     <Compile Include="Book.cs" />
+    <Compile Include="BookRecord.cs" />
     <Compile Include="Genre.cs" />
     <Compile Include="IdentityModels.cs" />
-    <Compile Include="Migrations\202109230043397_fourthtry.cs" />
-    <Compile Include="Migrations\202109230043397_fourthtry.Designer.cs">
-      <DependentUpon>202109230043397_fourthtry.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202109230114179_updatedmodels.cs" />
-    <Compile Include="Migrations\202109230114179_updatedmodels.Designer.cs">
-      <DependentUpon>202109230114179_updatedmodels.cs</DependentUpon>
+    <Compile Include="Migrations\202109232336524_UpdatedBookRecords.cs" />
+    <Compile Include="Migrations\202109232336524_UpdatedBookRecords.Designer.cs">
+      <DependentUpon>202109232336524_UpdatedBookRecords.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -104,11 +101,8 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202109230043397_fourthtry.resx">
-      <DependentUpon>202109230043397_fourthtry.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202109230114179_updatedmodels.resx">
-      <DependentUpon>202109230114179_updatedmodels.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202109232336524_UpdatedBookRecords.resx">
+      <DependentUpon>202109232336524_UpdatedBookRecords.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
