@@ -1,4 +1,7 @@
 # PersonalLibraryV2
+Planning Document
+https://docs.google.com/document/d/1NsZ_QLmhkB79LrWjZ_YtyTsyaImLURno1_8tUXhfekI/edit
+
 User Stories
 https://docs.google.com/document/d/1hZ_sGH8fIIFEfju5AD649cOvtxeCd61KD0GiPwHPir8/edit
 
